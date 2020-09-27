@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir=ltr>
+<head>
+  <meta charset="utf-8" name="viewport" content="width:device-width",
+  initial.scale=1.0>
+  <title>Sign Up or Log In - Crunchyroll</title>
+<style>
+  body {background-color:rgb(240, 240, 240);
+}
+
+  .div1 {background-color: #ffffff;
+  font-family: arial;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-style: solid;
+  border-color: gray;
+  padding-bottom: 250px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.span1 {font-family: arial;
+  font-size: 30px;
+  color: gray;
+  float: left;
+ }
+ .span2 {font-family: arial;
+ font-size: 20px;
+color: gray;
+float: left;
+}
+input {padding: 10px;
+}
+
+.span3 {font-family: arial;
+color: gray;
+float: right;
+text-align: center;}
+
+.span4 {font-family:arial;
+color: gray;
+float: right;}
+
+.span5 {font-family: arial;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {display: inline-block;
+float: left;
+}
+
+select {
+  width: 70%;
+  padding: 10px;
+  border: solid;
+  background-color: #ffffff;
+  font-family: arial;
+  color: gray;
+  display:inline-block;
+}
+.button {
+  background-color:rgb(245, 141, 66);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer
+}
+</style>
+</head>
+
+<body class="body">
+  <div class="header" float="left" style="border-style:solid;border-color:#ffffff;background-color:#ffffff">
+    <img src="https://www.soda.com/wp-content/uploads/2020/06/crunchyroll.jpg" alt="logo"
+    style="width:150px;height:75px">
+  </div>
+  <div class="div1">
+    <span class="span1"><b>Sign Up for a Free Account</b></span>
+    <span class="span3" style="font-size: 30px"><b>Log In</b><br>
+  <span class="span4" style="font-size: 20px">
+  Already have an account? Log in below.</span>
+  <form float="right">
+    <label for="username" style="color:gray;font-size:15px;text-align:left">Email or User Name</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password" style="color:gray;font-size:15px;text-align:left">Password</label><br>
+    <input type="text" id="password" name="password"><br>
+    <br>
+  <button class="button">Log In</button>
+</form>
+<p float="right" style="text-align:center;color:gray;font-size:10px">Trouble logging in? Make sure browser cookies and <br>
+  JavaScript are enabled</p>
+  </span>
+
+    <br>
+    <span class="span2">Please join Crunchyroll! It's only one click away!</span><br>
+<br>
+<span class="span5">
+<table>
+  <tr>
+    <th>
+      <form>
+        <label for="email" style="color:gray;font-size:15px">Email Address</label><br>
+          <input type="text" id="email" name="email"></form>
+        </th>
+    <th>
+      <form>
+        <label for="username" style="color:gray;font-size:15px">User Name</label><br>
+          <input type="text" id="username" name="username"></form>
+        </th>
+      </tr>
+        <br>
+    <tr>
+      <th>
+        <form>
+          <label for="password" style="color:gray;font-size:15px">Password</label><br>
+            <input type="text" id="password" name="password">
+          </th>
+        <th>
+          <ul>
+          <li>
+          <form>
+
+            <label float="left" style="color:gray">Birthday</label><br>
+            <select id="month" name="month">
+              <option value="jan">January</option>
+              <option value="feb">February</option>
+              <option value="march">March</option>
+
+          </select>
+        </form>
+        </li>
+          <li>
+            <form>
+              <select id="number" name="day">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </form>
+        </li>
+        <li>
+          <form>
+            <select id="year" name="year">
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+            </select>
+          </form>
+        </li>
+      </ul>
+        </th>
+      </tr>
+      <tr>
+        <th>
+        <form>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female" style="color:gray;font-size:15px">Female</label>
+          <input type="radio"  id="male" name="gender" value="male">
+          <label for="male" style="color:gray;font-size:15px">Male</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other" style="color:gray;font-size:15px">Other</label>
+        </form>
+      </th>
+
+    </tr>
+    <tr>
+      <br>
+      <th>
+        <button class="button">Create Account</button>
+      </th>
+      <th>
+        <form>
+          <input type="checkbox">
+          <label style="color:gray">Yes, keep me posted on updates related to Crunchyroll.</label>
+        </form>
+      </th>
+      </form>
+    </table>
+</span>
+
+
+
+  </div>
+</body>
+</body>
+</html>
